@@ -10,7 +10,7 @@ ATTEMPT=0
 SUCCESS=0
 FAILURE=0
 AVG_SUCCESS_RATE=0
-while /usr/bin/true; do
+while /bin/true; do
 	echo "WARNING: clearing docker image cache in 10s...(CNTL-C to cancel)"
 	for i in {10..1}; do
 		echo -n $i...
